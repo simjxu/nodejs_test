@@ -1,0 +1,23 @@
+<% include partials/header %>
+	<h1>Add Customer</h1>
+	<form method="POST" action="/update">
+		<label>First Name</label><br>
+		<input type="text" name="first_name">
+		<br>
+		<label>Last Name</label><br>
+		<input type="text" name="last_name">
+		<br>
+		<label>Email</label><br>
+		<input type="text" name="email">
+		<br><br>
+		<input type="submit" value="Submit">
+		<br>
+		<input type="button" value="Pull data" onclick="button_push()">
+		<br>
+		<input type="url" value="test_url">
+	</form>
+	<script>
+		function button_push(){
+			alert("button pushed")
+		}
+	</script>

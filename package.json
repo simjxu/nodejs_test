@@ -1,0 +1,21 @@
+{
+  "name": "Get-post-test",
+  "version": "1.0.0",
+  "description": "simple node app test",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.5.9",
+    "express": "*",
+    "http": "0.0.0",
+    "nodemon": "^1.17.3",
+    "npm": "^6.0.0"
+  }
+}
