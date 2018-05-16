@@ -14,8 +14,10 @@
     "body-parser": "*",
     "ejs": "^2.5.9",
     "express": "*",
+    "firebase-admin": "^5.12.0",
     "http": "0.0.0",
-    "nodemon": "^1.17.3",
+    "mongojs": "^2.5.0",
+    "nodemon": "^1.17.4",
     "npm": "^6.0.0"
   }
 }

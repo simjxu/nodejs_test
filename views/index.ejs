@@ -12,12 +12,15 @@
 		<br><br>
 		<input type="submit" value="Submit">
 		<br>
-		<input type="button" value="Pull data" onclick="button_push()">
+<!-- 		<input type="button" value="Pull data" onclick="button_push()">
 		<br>
-		<input type="url" value="test_url">
+		<input type="url" value="test_url"> -->
 	</form>
-	<script>
-		function button_push(){
-			alert("button pushed")
-		}
-	</script>
+	<h1><%= title %></h1>
+	<ul>
+	<% users.forEach(function(user){ %>
+		<li><%= user.first_name %> <%= user.
+			last_name %></li>
+	<% }) %>
+	</ul>
+<% include partials/footer %>

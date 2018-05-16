@@ -1,0 +1,2 @@
+Requires node modules folder, drag in for functionality
+Requires y folder for Google cloud, drag in for functionality
